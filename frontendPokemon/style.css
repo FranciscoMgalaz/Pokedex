@@ -1,0 +1,55 @@
+#pokemon-container {
+  display: flex;
+  flex-wrap: wrap; /* Para que cuando se llene la linea pase a la fila de abajo*/
+  justify-content: center;
+  padding: 20px;
+}
+.pokemon-block {
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(120, 120, 65, 0.586);
+  padding: 20px;
+  width: 250px; /* Fixed width for each Pokémon block */
+  background-color: rgba(9, 9, 9, 0.778);
+  color: white;
+}
+
+#titleBlock{
+  color:white;
+  font-family:cursive;
+}
+
+#containerBoton1{
+  justify-content: center;
+  display: flex;
+}
+
+#pokemon-form{
+  width: 20rem;
+  margin: auto;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
+#title{
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-size: 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgba(218, 222, 20, 0.697);
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  -webkit-text-stroke:1px blue;
+}
+
+#body{
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.903), white)
+
+}
+
+
+img {
+  width: 100%; /* Makes the image fill the container */
+  height: auto;
+}
